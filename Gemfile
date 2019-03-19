@@ -12,6 +12,7 @@ gem 'bootsnap'
 group :development, :test do
   gem 'capybara'
   gem 'pry'
+  gem 'simple_table_for'
 end
 
 group :development do

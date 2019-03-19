@@ -1,0 +1,7 @@
+<%= simple_table_for @songs, [:title, :released, :release_year, :artist_name, :genre] do |song| %>
+  <%= column song.title%>
+  <%= column song.released%>
+  <%= column song.release_year%>
+  <%= column song.artist_name%>
+  <%= column song.genre%>
+<% end %>
